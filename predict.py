@@ -41,6 +41,7 @@ def main():
     y_true, y_pred = y_test, clf.predict(X_test)
 
     predict_results = confusion_matrix(y_true, y_pred)
+    print 'predict test data'
     print predict_results
 
 
