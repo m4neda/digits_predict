@@ -34,7 +34,6 @@ def main():
         random_state=0,
     )
 
-    parameters = get_parmeters()
     # 適合率で最適化
     score = 'precision'
     clf = fit(X_train, y_train, score)
